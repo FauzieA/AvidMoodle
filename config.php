@@ -19,8 +19,8 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_general_ci',
 );
 
-$CFG->wwwroot   = 'https://moodle-site.onrender.com';  // <-- Change this to your actual Render site URL
-$CFG->dataroot  = '/var/www/moodledata';               // <-- Must match wherever moodledata is
+$CFG->wwwroot   = 'https://avidmoodle.onrender.com'  
+$CFG->dataroot  = '/var/www/moodledata';               
 $CFG->dirroot   = '/opt/render/project/src';
 $CFG->admin     = 'admin';
 
