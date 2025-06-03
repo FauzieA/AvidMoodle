@@ -6,10 +6,10 @@ $CFG = new stdClass();
 
 $CFG->dbtype    = 'pgsql';
 $CFG->dblibrary = 'native';
-$CFG->dbhost    = 'dpg-d0go2pbuibrs73fq44o0-a';
-$CFG->dbname    = 'moodle_7g1n';
-$CFG->dbuser    = 'moodle_7g1n_user';
-$CFG->dbpass    = 'u4u7dVeBYujzLAy9hmtTO0Yiq8Y7jFfP';
+$CFG->dbhost    = 'dpg-d0v5l7h5pdvs7384rqu0-a.oregon-postgres.render.com';
+$CFG->dbname    = 'avid_db';
+$CFG->dbuser    = 'avid_db_user';
+$CFG->dbpass    = '9uPn14QC4R7KXtwbRUUPHyggX3Q0DMGP';
 $CFG->sslproxy = true;
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
@@ -19,8 +19,8 @@ $CFG->dboptions = array (
   'dbcollation' => 'utf8mb4_general_ci',
 );
 
-$CFG->wwwroot   = 'https://moodle-site.onrender.com';
-$CFG->dataroot  = '/var/www/moodledata';  
+$CFG->wwwroot   = 'https://moodle-site.onrender.com';  // <-- Change this to your actual Render site URL
+$CFG->dataroot  = '/var/www/moodledata';               // <-- Must match wherever moodledata is
 $CFG->dirroot   = '/opt/render/project/src';
 $CFG->admin     = 'admin';
 
